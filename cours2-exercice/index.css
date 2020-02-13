@@ -14,7 +14,6 @@ body {
   position: relative;
   background: url(https://betravingknows.com/wp-content/uploads/2017/06/video-movie-placeholder-image-grey.png)
     center center;
-  background-size: cover;
 }
 
 .media-infos {
@@ -48,7 +47,8 @@ body {
 }
 
 #poster {
-  width: 154px;
+  width: 100px;
+  height: 150px;
   margin: 0 32px;
 }
 
@@ -60,10 +60,6 @@ body {
 
 .infos div {
   margin: 8px 0;
-}
-
-.infos div.communes {
-  margin-right: 32px;
 }
 
 .communes,
